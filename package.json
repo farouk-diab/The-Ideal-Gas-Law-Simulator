@@ -1,0 +1,41 @@
+{
+  "type": "module",
+  "name": "igl-sim",
+  "version": "2.0.0",
+  "description": "An interactive simulation designed and built for teachers and students.",
+  "main": "build/js/main.min.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "start": "serve",
+    "dev": "npm-run-all --parallel start watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-terser": "^0.4.1",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^3.20.2",
+    "rollup-plugin-postcss": "^4.0.2",
+    "serve": "^14.2.0"
+  },
+  "dependencies": {
+    "@material/button": "^14.0.0",
+    "@material/card": "^14.0.0",
+    "@material/chips": "^14.0.0",
+    "@material/fab": "^14.0.0",
+    "@material/icon-button": "^14.0.0",
+    "@material/layout-grid": "^14.0.0",
+    "@material/list": "^14.0.0",
+    "@material/ripple": "^14.0.0",
+    "@material/slider": "^14.0.0",
+    "@material/switch": "^14.0.0",
+    "@material/tab-bar": "^14.0.0",
+    "@material/top-app-bar": "^14.0.0",
+    "@material/typography": "^14.0.0",
+    "is-what": "^4.1.8",
+    "sass": "^1.62.0"
+  }
+}
